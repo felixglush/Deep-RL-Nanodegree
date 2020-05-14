@@ -23,8 +23,9 @@ The state space has 37 dimensions and contains the agent's velocity, along with 
 The task is episodic, and in order to solve the environment, the agent must get an average score of +13 over 100 consecutive episodes.
 
 ### Getting Started
+1. Follow the instructions in this [repository](https://github.com/udacity/deep-reinforcement-learning#dependencies) to set up the dependencies required for the project. Note that for this project, you can skip the OpenAI installation. All you need to do is create a conda environment, activate it, then `pip install .` from the python directory of the above repo.
 
-1. Download the environment from one of the links below.  You need only select the environment that matches your operating system. Note the Linux environment is included in this repository:
+2. Download the Unity environment from one of the links below.  You need only select the environment that matches your operating system. Note the Linux environment is included in this repository:
     - Linux: [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Linux.zip)
     - Mac OSX: [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana.app.zip)
     - Windows (32-bit): [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Windows_x86.zip)
@@ -34,7 +35,7 @@ The task is episodic, and in order to solve the environment, the agent must get 
 
     (_For AWS_) If you'd like to train the agent on AWS (and have not [enabled a virtual screen](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Training-on-Amazon-Web-Service.md)), then please use [this link](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Linux_NoVis.zip) to obtain the environment.
 
-2. Place the file in the `p1_navigation/` folder, and unzip the file. If a different environment from the one included is used, be sure to change the file name appropriately when instantiating the environment: `env = UnityEnvironment(file_name="...")`
+3. Place the file in the `p1_navigation/` folder, and unzip the file. If a different environment from the one included is used, be sure to change the file name appropriately when instantiating the environment: `env = UnityEnvironment(file_name="...")`
 
 ### Instructions
 
